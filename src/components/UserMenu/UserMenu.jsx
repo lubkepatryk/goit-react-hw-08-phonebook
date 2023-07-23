@@ -16,15 +16,3 @@ export const UserMenu = () => {
     </div>
   );
 };
-
-
-// import React from 'react';
-
-// export const UserMenu = ({ userEmail, handleLogout }) => {
-//   return (
-//     <div>
-//       <p>{userEmail}</p>
-//       <button onClick={handleLogout}>Wyloguj</button>
-//     </div>
-//   );
-// };
