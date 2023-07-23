@@ -1,15 +1,15 @@
-import React, { useEffect, useState, lazy } from 'react';
+import React, { useEffect, lazy } from 'react';
 // import { ContactForm } from './ContactForm/ContactForm';
 // import { Filter } from './Filter/Filter';
 // import { ContactList } from './ContactList/ContactList';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 //import { getContacts, getFilter } from '../redux/selectors';
 // import {
 //   addContact,
 //   delContact,
 //   fetchContacts,
 // } from '../redux/contacts/createAction';
-import { Switch, Route, Redirect, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { Layout } from './Layout';
 import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
